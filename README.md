@@ -1,2 +1,3 @@
-#olasılık
 Olasılık
+sw
+ss
