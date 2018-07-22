@@ -1,0 +1,2 @@
+# asss
+Olasılık
