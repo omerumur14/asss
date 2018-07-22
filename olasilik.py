@@ -9,17 +9,17 @@ def head_or_tail():
     return(v1);
 
 def rock_paper_scissors():
-    v1=['ROCK','PAPER','SCİSSORS'];
+    v1=['ROCK','PAPER','SCISSORS'];
 
     v2=sample(v1,2);
 
     print('1. '+v2[0]+'\n2. '+v2[1]);
 
-    if(v2[0]=='ROCK' and v2[1]=='SCİSSORS'):
-        print('ROCK win SCİSSORS lose');
+    if(v2[0]=='ROCK' and v2[1]=='SCISSORS'):
+        print('ROCK win SCISSORS lose');
 
-    if(v2[1]=='ROCK' and v2[0]=='SCİSSORS'):
-        print('ROCK win SCİSSORS lose');
+    if(v2[1]=='ROCK' and v2[0]=='SCISSORS'):
+        print('ROCK win SCISSORS lose');
 
     if(v2[0]=='ROCK' and v1[1]=='PAPER'):
         print('PAPER win ROCK lose');
@@ -27,11 +27,11 @@ def rock_paper_scissors():
     if(v2[1]=='ROCK' and v2[0]=='PAPER'):
         print('PAPER win ROCK lose');
 
-    if(v2[0]=='SCİSSORS' and v2[1]=='PAPER'):
-        print('SCİSSORS win PAPER lose');
+    if(v2[0]=='SCISSORS' and v2[1]=='PAPER'):
+        print('SCISSORS win PAPER lose');
 
-    if(v2[1]=='SCİSSORS' and v2[0]=='PAPER'):
-        print('SCİSSORS win PAPER lose');
+    if(v2[1]=='SCISSORS' and v2[0]=='PAPER'):
+        print('SCISSORS win PAPER lose');
 
 
 
