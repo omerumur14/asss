@@ -1,2 +1,2 @@
-# asss
+#olasılık
 Olasılık
