@@ -8,10 +8,10 @@ def head_or_tail():
 
     return(v1);
 
-def rock_paper_scissors(v0):
+def rock_paper_scissors():
     v1 = ['ROCK','PAPER','SCİSSORS'];
 
-    v2 = sample(v1,v0);
+    v2 = sample(v1,2);
 
     print('1. '+v2[0]+'\n2. '+v2[1]);
 
